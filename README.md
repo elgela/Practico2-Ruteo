@@ -11,6 +11,7 @@ EJERCICIOS
     c. Ver la información de un usuario dado su DNI
 
 5. Modifique el ejercicio 6 del práctico 1, para enrutar la tabla de multiplicar. Se debe generar un menú que tenga accesos directos a los límites de la tabla más usados.
+
 /tabla/5
 
 /tabla/10
