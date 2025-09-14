@@ -7,12 +7,14 @@ EJERCICIOS
     a. Obtener la lista de usuarios del sistema
 
     b. Agregar un nuevo usuario
-    
+
     c. Ver la información de un usuario dado su DNI
 
 5. Modifique el ejercicio 6 del práctico 1, para enrutar la tabla de multiplicar. Se debe generar un menú que tenga accesos directos a los límites de la tabla más usados.
 /tabla/5
+
 /tabla/10
+
 /tabla/20
 
 Nota: Se puede hacer lo mismo con el ejercicio 4 del práctico 1
