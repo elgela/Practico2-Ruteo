@@ -22,5 +22,7 @@ Nota: Se puede hacer lo mismo con el ejercicio 4 del práctico 1
 Realice los siguientes cambios:
 
 a. Modifique la aplicación e implemente un ruteo para las tres acciones existentes (listado, filtro y ver detalle). Puede basarse en el ejemplo de la calculadora de la teoría-práctica.
+
 b. Opcional: Agregue funcionalidad para Agregar una figura al sistema
+
 c. Opcional: Modifique y emprolije el código para reutilizar el listado de las acciones “listado” y “filtro”.
