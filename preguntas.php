@@ -1,7 +1,7 @@
 <?php
 echo "1) ¿Para que se utiliza el ruteo en una aplicación web?
 <br>
-Sirve para determinar que contenido mostrar según la URL que se visita. Asocia las URLs a lo que se está refiriendo la pantalla. Cada solicitud del usuario es dirigida mediante un método HTTP a un componente de código encargado de atenderlas.
+Sirve para determinar que contenido mostrar según la URL que se visita. Asocia las URLs a lo que se está refiriendo la pantalla, acepta URL's semánticas. Cada solicitud del usuario es dirigida mediante un método HTTP a un componente de código encargado de atenderlas.
 <br>
 <br>
 
