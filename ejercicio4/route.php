@@ -18,30 +18,33 @@ $params = explode("/", $action);
 // determina que camino seguir según la acción
 switch($params[0]) {
     case 'usuarios':
-        getUsuarios();
-        break;
-    case 'nuevoUsuario':
-        newUsuario();
-        break;
-    case 'DNI':
         if (isset($params[1])) {
             getUsuarios($params[1]);
         } else {
             getUsuarios();
         }
         break;
+    case 'nuevoUsuario':
+        newUsuario();
+        break;
+    case 'dni':
+        if (isset($params[1])) {
+            showUsuario($params[1]);
+        } else {
+            showUsuario();
+        }
+        break;
         
 }
 
 function getUsuarios() {
-    require_once 'header.php';
+
 }
 
 function newUsuario() {
-    require_once 'header.php';
-    if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-        $nombre = $_POST['nombre'];
-        $dni = $_POST['dni'];
-    }
+
 }
 
+function showUsuario() {
+
+}
