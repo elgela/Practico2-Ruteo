@@ -36,12 +36,10 @@ function multiplicar() {
             <tbody>";
         for ($mes = 1; $mes <= $meses; $mes++) {
             $capital *= (1 + $interesMensual);
-            echo "<tr><td style='text-align:center'>$mes</td><td style='text-align:center'>" . number_format($capital, 2, ',', '.') . "</td></tr>";
-            
+            echo "<tr><td style='text-align:center'>$mes</td><td style='text-align:center'>" . number_format($capital, 2, ',', '.') . "</td></tr>";       
         }
         echo "</tbody></table>";
         require_once 'templates/footer.php';
-
     }
 }
 
